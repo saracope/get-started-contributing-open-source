@@ -1,7 +1,7 @@
 ### This repo is home to the slides for a talk by Sara Cope on 10/3/2018 for the [Dayton Web Developers meetup](https://www.meetup.com/dayton-web-developers/events/ndsqfnyxnbfb/). 
-Slides are available to [view in your browser](https://saracope.github.io/). 
+Slides are available to [view in your browser](https://saracope.github.io/get-started-contributing-open-source/). 
 
-A [.pdf of the slides](https://github.com/saracope/github-techtalk/blob/master/) is also available.
+A [.pdf of the slides](https://github.com/saracope/get-started-contributing-open-source/blob/master/get-started-with-open-source.pdf) is also available.
 
 ---
 # Title: Get Started Contributing to Open Source Through Civic Tech
