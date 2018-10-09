@@ -1,0 +1,988 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>get-started-with-open-source</title>
+  <link rel="stylesheet" href="css/base.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/web.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/white.css" type="text/css" media="screen">
+</head>
+
+<body>
+
+  <h1>Get Started Contributing to Open Source Through Civic Tech</h1>
+  <p>By Sara Cope on 10/3/2018</p>
+  <p>The talk was given at the <a href="https://www.meetup.com/dayton-web-developers/events/ndsqfnyxnbfb/">Dayton Web Developers meetup</a>. The following is a transcript and slides from the session. You can find me on <a href="https://twitter.com/sarassassin">Twitter</a>    for any follow-on questions or comments.</p>
+
+  <div class="slides">
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.001.jpg" alt="Image of slide number 1" />
+      </div>
+      <div class="slide-notes">
+        <p>Get started contributing to open source through civic tech</p>
+
+        <p>Sara Cope</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.002.jpg" alt="Image of slide number 2" />
+      </div>
+      <div class="slide-notes">
+        <p>I'm Sara Cope, a developer with the federal government at the General Services Administration. I work on our Open Source and Innovation teams, primarily on code.gov, which is an open source project and also is our platform for inventorying open
+          source code in the federal government.</p>
+
+        <p>GitHub: <a href="https://github.com/saracope">saracope</a></p>
+
+        <p>Twitter: <a href="https://twitter.com/sarassassin">sarassassin</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.003.jpg" alt="Image of slide number 3" />
+      </div>
+      <div class="slide-notes">
+        <p>What we’ll cover</p>
+
+        <p>- What is open source and civic tech</p>
+
+        <p>- Open source prep</p>
+
+        <p>- Choosing a project</p>
+
+        <p>- Making a contribution</p>
+
+        <p>- Backup/extra slides:</p>
+
+        <p>- Technical resources and tutorials</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.004.jpg" alt="Image of slide number 4" />
+      </div>
+      <div class="slide-notes">
+        <p>One of the motivations behind doing this talk is the Hacktoberfest event which is a month long celebration of open source put on by GitHub, DigitalOcean, and Twilio. As a way to encourage open source, they will send a free t-shirt and stickers
+          to anyone who has submitted 5 pull requests in October and registered on <a href="https://hacktoberfest.digitalocean.com/">hacktoberfest.digitalocean.com</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.005.jpg" alt="Image of slide number 5" />
+      </div>
+      <div class="slide-notes">
+        <p>Civic tech is technology that enables greater participation in government or assists government in delivering citizen services and strengthening ties with the public. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.006.jpg" alt="Image of slide number 6" />
+      </div>
+      <div class="slide-notes">
+        <p>At a high level, Civic tech can be divided into 2 groups: Open Government and Community Action.</p>
+
+        <p>Open government represents the group of projects aimed an enabling top-down change through the promotion of government transparency, accessibility of gov data and services, and promotion of civic involvement in the democratic process. Examples
+          of that are <a href="http://vote.gov" target="_blank">vote.gov</a>, <a href="http://healthcare.gov" target="_blank">healthcare.gov</a>, <a href="http://analytics.gov" target="_blank">analytics.gov</a>, and <a href="http://data.gov" target="_blank">data.gov</a>.
+          </p>
+
+        <p>Community action represents the group of projects aimed at catalyzing bottom-up reform through peer-to-peer information sharing, funding, and collaboration to address civic issues. Examples of that are <a href="http://change.org" target="_blank">change.org</a>,
+          Nextdoor app, BallotReady, and projects by Code for America/Code for Dayton.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.007.jpg" alt="Image of slide number 7" />
+      </div>
+      <div class="slide-notes">
+        <p>Why contribute</p>
+
+        <p>This work actually makes a difference in peoples lives</p>
+
+        <p>Give back to something you use and love/hate</p>
+
+        <p>Encourage collaboration/innovation/communication</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.008.jpg" alt="Image of slide number 8" />
+      </div>
+      <div class="slide-notes">
+        <p>There are a lot of different places where you can contribute. This is just a very small subset of orgs available and include some you wouldn’t think have open source code like NSA, and the Executive Office of the President.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.009.jpg" alt="Image of slide number 9" />
+      </div>
+      <div class="slide-notes">
+        <p><a href="http://code.gov" target="_blank">Code.gov</a> inventories open source code in the government and has almost 5 thousand projects to choose from.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.010.jpg" alt="Image of slide number 10" />
+      </div>
+      <div class="slide-notes">
+        <p>We also have a list of 30 select open tasks which have been identified my the project maintainers as wanted contributor help.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.011.jpg" alt="Image of slide number 11" />
+      </div>
+      <div class="slide-notes">
+        <p>Intro to Open Source</p>
+
+        <p>Code that publicly available</p>
+
+        <p>Can be freely used, changed, and shared by anyone</p>
+
+        <p>Has a license that declares specific terms of use</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.012.jpg" alt="Image of slide number 12" />
+      </div>
+      <div class="slide-notes">
+        <p>So even if you’re not really familiar with open source, you probably still interact with it every day. Here are a few examples of open source projects you may be familiar with. There are thousands more out there.</p>
+
+        <p>Image credit: <a href="https://www.flickr.com/photos/grokcode/3084292004" target="_blank">https://www.flickr.com/photos/grokcode/3084292004</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.013.jpg" alt="Image of slide number 13" />
+      </div>
+      <div class="slide-notes">
+        <p>Contributor benefits</p>
+
+        <p>So what benefits do you get out of contributing to open source?</p>
+
+        <p>gain experience</p>
+
+        <p>improve existing skills</p>
+
+        <p>give back to the community</p>
+
+        <p>influence the product roadmap</p>
+
+        <p>find mentors and teach others</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.014.jpg" alt="Image of slide number 14" />
+      </div>
+      <div class="slide-notes">
+        <p>Open source myth busting</p>
+
+        <p>1. You have to know everything about the project before you contribute</p>
+
+        <p>Not even maintainers always know everything about a project.</p>
+
+        <p>2. Coding is the only way to add value to a project</p>
+
+        <p>Non-code ways to contribute: testing, documentation, graphic design, accessibility testing, translation, community organizing, issue triage, community growth.</p>
+
+        <p>3. Project maintainers are laughing at your missteps</p>
+
+        <p>No one is laughing at you. Maintainers love getting contributor submissions. We’re here to encourage that and grow the community.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.015.jpg" alt="Image of slide number 15" />
+      </div>
+      <div class="slide-notes">
+        <p>Open</p>
+
+        <p>Source</p>
+
+        <p>Wayfinding</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.016.jpg" alt="Image of slide number 16" />
+      </div>
+      <div class="slide-notes">
+        <p>A typical open source project has the following types of people:</p>
+
+        <p>Author: The person/s or organization that created the project</p>
+
+        <p>Contributors: Everyone who has contributed something back to the project.</p>
+
+        <p>Maintainers: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. (They may also be authors or owners of the project.)</p>
+
+        <p>Community Members: People who use the project. They might be active in conversations or express their opinion on the project’s direction.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.017.jpg" alt="Image of slide number 17" />
+      </div>
+      <div class="slide-notes">
+        <p>Before you start searching for and reviewing potential projects for your contribution, you should have some familiarity with what files you may see. Not all of the files mentioned here exist in all projects, but they’re common enough that knowing
+          about them makes it much easier for you to navigate projects. </p>
+
+        <p>Readme</p>
+
+        <p>Contributing</p>
+
+        <p>Code of conduct</p>
+
+        <p>Styleguides</p>
+
+        <p>License or copyright</p>
+
+        <p>Others</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.018.jpg" alt="Image of slide number 18" />
+      </div>
+      <div class="slide-notes">
+        <p>Typically the very first thing you see for a project is its README file. This is the project’s face to the world. The README file tells you the name of the project and what it’s intended to do, giving you a quick snapshot to see whether it’s a
+          project that might be useful or interesting to you. </p>
+
+        <p>The contents of README files vary. Some projects use the file simply to name the project and point you to other resources. Others include those other resources—installation instructions, developer setup, example usage—in the README file itself.
+          The contents of this file are entirely up to the project. </p>
+
+        <p>Regardless of the contents, the README file should be your first stop when you visit any project. It can give you a very good sense of what the project is and where to look for more information about it. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.019.jpg" alt="Image of slide number 19" />
+      </div>
+      <div class="slide-notes">
+        <p>The CONTRIBUTING file is your best friend when interacting with a project. It file sets out how the project prefers to receive contributions, and the requirements and parameters a contribution must meet to be accepted into the project. (also sometimes
+          called CONTRIBUTORS file)</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.020.jpg" alt="Image of slide number 20" />
+      </div>
+      <div class="slide-notes">
+        <p>The Code of Conduct (CoC) is a document that is appearing in more and more projects every year. It is used set the behavior guidelines that are both welcome and unwelcome in that project community, the consequences for unwelcome behavior, and
+          where and how community members can report it. The intention of the CoC is to encourage behavior that creates a welcoming and safe place for all contributors. The existence of a Code of Conduct is a sign that a project values the safety of its
+          community and is willing to back that up with action. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.021.jpg" alt="Image of slide number 21" />
+      </div>
+      <div class="slide-notes">
+        <p>Depending on the project, you may find a styleguide for programming, for writing, for graphic design... It all depends upon the needs and preferences of the project. Sometimes these guides are included directly in the CONTRIBUTING file, other
+          times they are standalone documents. Whichever way they’re implemented, you must always read and follow these guidelines if they exist. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.022.jpg" alt="Image of slide number 22" />
+      </div>
+      <div class="slide-notes">
+        <p>The LICENSE file declares the terms under which folks are permitted to use, modify, and distribute the project.</p>
+
+        <p>It’s only through that LICENSE file that a project can be “open source,” and only through that LICENSE file that the project can legally be used, modified, and distributed. </p>
+
+        <p>If you come across an interesting project that isn’t licensed at all or has a license that isn’t OSI-approved, be very careful before you contribute to it and throw yourself into a complicated and suspect copyright situation. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.023.jpg" alt="Image of slide number 23" />
+      </div>
+      <div class="slide-notes">
+        <p>Those were the files you’re most likely to encounter when browsing open source projects, but a few more are relatively popular, particularly in older or very well-established projects. </p>
+
+        <p>The INSTALL or INSTALLATION file is pretty much exactly what you would expect: instructions for how to install and optionally configure the project for use. This file is more common in projects that use make for compiling and installing the software,
+          but there’s no reason it couldn’t be included in any project (and it often is). </p>
+
+        <p>CHANGES or CHANGELOG is, again, fairly self-explanatory. This file contains a human-readable summary of all of the releases for the software and the changes that comprise each. The CHANGES file can be very handy if you’re trying to determine whether
+          the version of the software you’re using includes a certain bug fix. It’s also helpful for new contributors to see the development trajectory of the project. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.024.jpg" alt="Image of slide number 24" />
+      </div>
+      <div class="slide-notes">
+        <p>An issue tracker is where a project tracks individual issues in the project. This may also be called bug tracking or a ticketing system. Issue trackers are vital for making sure the project knows what’s going on, when, and by whom. </p>
+
+        <p>So you’ll want to get familiar with how a project is using it’s issue tracker. Do they only enter bugs, does it include design discussions, does it layout new or upcoming features.</p>
+
+        <p>The only wrong way to use a project’s issue tracker is “anything different from how the project uses it.” Don’t inject your own preferences or workflow into a project’s issue tracker. Sometimes a project documents its issue workflow. If it does,
+          follow it. If it doesn’t, have a look at completed (“closed”) issues to see which workflow was used for them.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.025.jpg" alt="Image of slide number 25" />
+      </div>
+      <div class="slide-notes">
+        <p>A few open source software projects require all contributors to agree to either a Contributor License Agreement or a Developer Certificate of Origin before their contributions can be merged and distributed with the software. </p>
+
+        <p>So these are 2 things you want to be aware of.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.026.jpg" alt="Image of slide number 26" />
+      </div>
+      <div class="slide-notes">
+        <p>The CLA, basically says that you have the right to share your contributions, agree that the project has a license to alter, distribute, and administer those contributions.</p>
+
+        <p>The intention of the CLA is to minimize potential legal complications of distributing the work, as well as to potentially make it easier to change license.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.027.jpg" alt="Image of slide number 27" />
+      </div>
+      <div class="slide-notes">
+        <p>This has become a more popular alternative to CLAs. A DCO relies upon a contributor signing their contribution using the -s or --signoff flags of the git version control system. This tells the project that they have the right to distribute their
+          contribution and do so under the same conditions as the project license. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.028.jpg" alt="Image of slide number 28" />
+      </div>
+      <div class="slide-notes">
+        <p>The best place to learn about the various types of free and open source software licenses is the Open Source Initiative Licenses list. It can be a little overwhelming at first, so to get you started, here’s a quick introduction to the two basic
+          types of open sources licenses: copyleft and permissive. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.029.jpg" alt="Image of slide number 29" />
+      </div>
+      <div class="slide-notes">
+        <p>Both of these licenses share the requirement that anyone who uses works licensed under one of them must be able to view, modify, and share the source of the work. The difference comes after that:</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.030.jpg" alt="Image of slide number 30" />
+      </div>
+      <div class="slide-notes">
+        <p>With a permissive license, someone who makes a change and redistributes the software is permitted to change the terms and conditions under which someone can use the new distribution. To put that plainly, the creator may change the license of the
+          new distribution to one that’s different from the original work. </p>
+
+        <p>This gives the person releasing the new distribution a lot of flexibility in defining how the derivative work may be used. Two popular permissive licenses are the Apache License and the MIT License.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.031.jpg" alt="Image of slide number 31" />
+      </div>
+      <div class="slide-notes">
+        <p>Copyleft licenses protect a work from being relicensed under what may end up being a more restrictive set of terms and conditions. Once a work has been released under a copyleft license, the license ensures that the work can never be released
+          under a license that may in any way remove or diminish any of the original rights granted to the user by the license. </p>
+
+        <p>So if your creation benefits from a copyleft licensed work, then anyone who receives your creation must similarly benefit from your work. The GPL license is the most common copyleft license and the Mozilla Public License.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.032.jpg" alt="Image of slide number 32" />
+      </div>
+      <div class="slide-notes">
+        <p>A specific license I did want to mention is the Creative Commons license. You’ll see a lot of government work use the CC 1.0 license. This means that you can copy, modify, distribute, and perform the work, even for commercial purposes, all without
+          asking permission.</p>
+
+        <p><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">https://creativecommons.org/publicdomain/zero/1.0/legalcode</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.033.jpg" alt="Image of slide number 33" />
+      </div>
+      <div class="slide-notes">
+        <p>The next thing i wanted to talk about was choosing a project to contribute to an doing some prep work to give yourself a better chance of success.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.034.jpg" alt="Image of slide number 34" />
+      </div>
+      <div class="slide-notes">
+        <p>You’ll want to take some time to really get to know you own personal requirements for the project you choose. These are characteristics that meet your own particular needs and interest. So you’ll want to identify what those are. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.035.jpg" alt="Image of slide number 35" />
+      </div>
+      <div class="slide-notes">
+        <p>Start by considering what skills you can offer to a project. Are you a great writer or editor? Can you do language translation? Graphic design? Know certain programming languages? Maybe you have experience managing people, writing technical specifications
+          or organizing events? Take a few minutes to write down all of your existing skills and then take a few minutes to note the skills you are wanted to enhance for yourself (if any). </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.036.jpg" alt="Image of slide number 36" />
+      </div>
+      <div class="slide-notes">
+        <p>Then think about what sort of things interest you.</p>
+
+        <p>You’re much more likely to enjoy and stick with a project if you’re working on something that is interesting and relevant to you.</p>
+
+        <p>If you’re passionate about voter registration and getting people to the polls, that’s something you would write down.</p>
+
+        <p>Take a few more minutes to write down all of your areas of interest. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.037.jpg" alt="Image of slide number 37" />
+      </div>
+      <div class="slide-notes">
+        <p>Next, keeping all that in mind, you’ll want to create specific and actionable goals so you can engineer the outcome you want from the beginning.</p>
+
+        <p>Goals that are specific and actionable are key here.</p>
+
+        <p>Something like “Practice programming” is a pretty vague goal. </p>
+
+        <p>“Become more proficient at server-side Javascript this quarter” is specific and actionable. This is a goal that is easy for you to focus on and just as easy to see whether you’re making progress toward it. </p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.038.jpg" alt="Image of slide number 38" />
+      </div>
+      <div class="slide-notes">
+        <p>So now that you have your goals, interests, and skills in mind it’s time to find a project. But there are thousands to choose from. How do you decide? </p>
+
+        <p>So as your taking a look projects, you’ll want to create a short list of 5-10 projects that are good candidates for you, keeping in mind the items you listed previously.</p>
+
+        <p>Here are several resources to get you started:</p>
+
+        <p><a href="https://code.gov/">Code.gov</a></p>
+
+        <p><a href="https://www.data.gov/">Data.gov</a></p>
+
+        <p><a href="https://github.com/search?l=&q=state%3Aopen+label%3Ahacktoberfest&ref=advsearch&type=Issues&utf8=%E2%9C%93">Hacktoberfest tag on GitHub</a></p>
+
+        <p><a href="https://www.codetriage.com/">CodeTriage</a></p>
+
+        <p><a href="https://yourfirstpr.github.io/">Your First PR</a></p>
+
+        <p><a href="https://www.firsttimersonly.com/">First Timers Only</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.039.jpg" alt="Image of slide number 39" />
+      </div>
+      <div class="slide-notes">
+        <p>You’ve done a lot of work by this point, so the next step may not take you very long. That’s actually picking a project to start contributing to.</p>
+
+        <p>The smart way do this by comparing the list of projects you’ve created with your list of items from before. It’s possible that there won’t be a single project that meets all of the requirements on your list. That’s OK. As long as it meets some
+          of them, you’ll still be moving toward your personal goals.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.040.jpg" alt="Image of slide number 40" />
+      </div>
+      <div class="slide-notes">
+        <p>You’ll want to give yourself the best possible chance of success by choosing a project that at least this checklist.</p>
+
+        <p>License that meets your needs</p>
+
+        <p>Contributing and Code of Conduct files</p>
+
+        <p>Good installation instructions</p>
+
+        <p>At least 1 working communication channel</p>
+
+        <p>Issues that you think you can tackle</p>
+
+        <p>Active development</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.041.jpg" alt="Image of slide number 41" />
+      </div>
+      <div class="slide-notes">
+        <p>So now you’re going to choose an existing project task to work on or create a new task. </p>
+
+        <p>Most of these systems include some way to ‘tag’ issues to make them easier to categorize and locate. The tags vary from project to project, but often a project has a tag that’s used to mark certain issues as suitable for new contributors to tackle.
+          Examples of tags that may mean this are: easy, starterbug, beginner, help wanted, or good first ticket. </p>
+
+        <p>If your idea doesn’t exist in the issue tracker, open a new issue. This serves two purposes. First, it warns the project that a contribution may be on its way. Second, it allows the project maintainers to review the task and confirm that it’s
+          something the project needs or wants. </p>
+
+        <p>Small tasks lead to a quicker payoff and better chance of success than trying to tackle a large feature or tricky bug</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.042.jpg" alt="Image of slide number 42" />
+      </div>
+      <div class="slide-notes">
+        <p>Making</p>
+
+        <p>a</p>
+
+        <p>Contribution</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.043.jpg" alt="Image of slide number 43" />
+      </div>
+      <div class="slide-notes">
+        <p>Prep</p>
+
+        <p>First you’ll want to do any environment setup that’s needed.</p>
+
+        <p>Then you want to make sure and triage your issue, you must be able to duplicate it or view it in some way. </p>
+
+        <p>Again go back and read the docs and make sure you follow the project’s workflow for them.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.044.jpg" alt="Image of slide number 44" />
+      </div>
+      <div class="slide-notes">
+        <p>The specifics of how you create it naturally will vary depending on the type of contribution: documentation, user experience, design, code, or other types. Each contribution type obviously will have its own creation process. Some initial guidelines
+          to follow:</p>
+
+        <p>Ask the community for guidance</p>
+
+        <p>Submit early for feedback (add WIP to your pull requests that aren’t ready for merging)</p>
+
+        <p>Be nice</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.045.jpg" alt="Image of slide number 45" />
+      </div>
+      <div class="slide-notes">
+        <p>Verify you’re asking in the appropriate venue. Some projects want you to ask on the mailing list. Others in the issue tracker. Still others in the chatroom or by some other mechanism. Make sure to review the CONTRIBUTING file to verify the correct
+          way to ask questions for that project.</p>
+
+        <p>2. Drop the attitude. Even if you’ve contributed to other projects before, even if you’ve been in software development for thirty years, rather than pointing out that you have a PhD in computer science and have been programming in that language
+          for twelve years (information which is irrelevant to the suggestion at hand), simply state the problem you’ve noticed, how the code could be improved, and ask whether anyone would have a problem with you making the change. Take the time to craft
+          your question accordingly. Run a draft past a friend just to be sure you don’t come across as a conceited jerk.</p>
+
+        <p>3. Always be polite. Again, no matter how frustrated you may feel, be polite when asking your question of the community. It’s OK to let your exasperation come through, as long as you don’t direct it toward the project or the community. “I’ve read
+          all the docs and the mailing list and tried everything I could think of, but it still doesn’t work,” is an entirely acceptable statement. Say please and thank you and make sure that your words express only the problem and not any directed negativity.</p>
+
+        <p>4. Succinctly but clearly state your problem. State what you are trying to accomplish, what you are experiencing instead, and the full text of any error messages you see. Be brief, but make sure to include all relevant details.</p>
+
+        <p>5. Be patient. Remember: nearly every member of a free and open source software community is a volunteer. Each will have their own life and all of the complexities that accompany it. Give them a few days to reply to your question before you ping
+          to ask whether anyone saw it. While you’re waiting, you could help the entire community by documenting anything you learned in your research while troubleshooting your problem (such as error messages and what they mean).</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.046.jpg" alt="Image of slide number 46" />
+      </div>
+      <div class="slide-notes">
+        <p>Good commit messages</p>
+
+        <p>Be descriptive but succinct</p>
+
+        <p>Keep it to 50 characters or less</p>
+
+        <p>Don’t end commit msgs with a period</p>
+
+        <p>Use the imperative present tense ‘Add' instead of ‘Added’</p>
+
+        <p>If someone were to apply your changes to their project what would it do?</p>
+
+        <p>This change will “Update homepage for launch”</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.047.jpg" alt="Image of slide number 47" />
+      </div>
+      <div class="slide-notes">
+        <p>Reading the commit history will always give you a better sense of the type of commit messages that project uses.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.048.jpg" alt="Image of slide number 48" />
+      </div>
+      <div class="slide-notes">
+        <p>The contribution submission process is going to vary depending upon your contribution type (document, design, code, or another type) and the requirements and constraints of the project to which you’ve chosen to contribute. The most important thing
+          you can do is read and follow the documentation.</p>
+
+        <p>If you start thinking of a pull request as a product, with the author as the seller, and reviewers as customers, then that helps us understand our customer in order to “sell” our pull request more effectively and get faster approvals.</p>
+
+        <p>Add some screenshots for your front-end changes! Screenshots simply make the job for the reviewer much easier. It’s easier to reason about front-end changes when you can visually see what’s been changed in the pull request. If you’re feeling extra
+          generous, add a GIF or video of you using the feature (potentially in multiple browsers, if that’s important) to add some extra validation for your UI changes.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.049.jpg" alt="Image of slide number 49" />
+      </div>
+      <div class="slide-notes">
+        <p>So now that you’re pull request has been entered, you may need to work with the maintainers to get it merged. Someone will need to review your changes to be sure it does what they expect. </p>
+
+        <p>They probably will have questions, feedback, and suggestions about your contribution. So you’ll want to collaborate with them to get your contribution into an acceptable state. Once it is in a good place, the PR will get merged.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.050.jpg" alt="Image of slide number 50" />
+      </div>
+      <div class="slide-notes">
+        <p>Congratulations! You’ve just made your first contribution! Be sure the celebrate that win.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.051.jpg" alt="Image of slide number 51" />
+      </div>
+      <div class="slide-notes">
+        <p>But what if your pull request never gets merged?</p>
+
+        <p>No matter how good and worthwhile you think your contribution is, it’s possible that the project maintainers will not accept it. </p>
+
+        <p>Don’t take this personally, as it’s certainly not intended that way. There are plenty of reasons your contribution may not be accepted.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.052.jpg" alt="Image of slide number 52" />
+      </div>
+      <div class="slide-notes">
+        <p>Whatever the reason may be you really want to see it as a learning opportunity. You should ask how you could improve so that your next contribution has a better chance of being successful. Take that feedback and take it to heart and apply it to
+          your next change. That’s the best way to improve.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.053.jpg" alt="Image of slide number 53" />
+      </div>
+      <div class="slide-notes">
+        <p>Rinse & Repeat</p>
+
+        <p>Keep going! Review your goals and continue to contribute to projects that are worthwhile to you.</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.054.jpg" alt="Image of slide number 54" />
+      </div>
+      <div class="slide-notes">
+        <p>Thank you!</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.055.jpg" alt="Image of slide number 55" />
+      </div>
+      <div class="slide-notes">
+        <p>So </p>
+
+        <p>Many</p>
+
+        <p>Resources</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.056.jpg" alt="Image of slide number 56" />
+      </div>
+      <div class="slide-notes">
+        <p>Tools</p>
+
+        <p><a href="https://git-scm.com/" target="_blank">Git</a> - Version control at the command line</p>
+
+        <p><a href="https://www.sourcetreeapp.com/">Sourcetree</a> - Git GUI (graphical user interface) for Mac and Windows</p>
+
+        <p><a href="https://code.visualstudio.com/">Visual Studio Code</a> - Text editor that makes life better (has a Git integration)</p>
+
+        <p><a href="https://octobox.io/" target="_blank">Octobox </a> - Manage GitHub notifications</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.057.jpg" alt="Image of slide number 57" />
+      </div>
+      <div class="slide-notes">
+        <p>Command Line</p>
+
+        <p><a href="https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course">Viking Code School crash course (text)</a></p>
+
+        <p><a href="https://commandlinepoweruser.com/ ">Command Line Power User - Wes Bos (video)</a></p>
+
+        <p><a href="https://www.git-tower.com/learn/cheat-sheets/cli" target="_blank">Command line cheat sheet</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.058.jpg" alt="Image of slide number 58" />
+      </div>
+      <div class="slide-notes">
+        <p>Command Line (quick ref)</p>
+
+        <p>pwd - show the path for your current directory</p>
+
+        <p>cd - change directory</p>
+
+        <p>mkdir - create a directory</p>
+
+        <p>terminology note: directory means folder if you’re thinking in windows</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.059.jpg" alt="Image of slide number 59" />
+      </div>
+      <div class="slide-notes">
+        <p>Git training </p>
+
+        <p><a href="https://services.github.com/on-demand/">GitHub On Demand training</a></p>
+
+        <p><a href="https://www.git-tower.com/learn/git/videos#episodes">Git Tower course (video)</a></p>
+
+        <p><a href="https://learngitbranching.js.org/">Interactive tutorial on Git branching</a></p>
+
+        <p><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">Git cheat sheet (.pdf)</a></p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.060.jpg" alt="Image of slide number 60" />
+      </div>
+      <div class="slide-notes">
+        <p>Git commands </p>
+
+        <p>git clone -> download a project repo</p>
+
+        <p>git checkout -b [name-of-your-branch] -> create the branch and switch to it (checkout)</p>
+
+        <p>git status -> show the files that were modified</p>
+
+        <p>git add [file] -> get a file ready for commit (stage them)</p>
+
+        <p>git commit -m [your good commit message] -> commit your staged files</p>
+
+        <p>git log -> show the branches commit history</p>
+
+        <p>git push origin [name-of-your-branch] -> push your local changes to your online project repository</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.061.jpg" alt="Image of slide number 61" />
+      </div>
+      <div class="slide-notes">
+        <p>GitHub</p>
+
+        <p><a href="https://services.github.com/on-demand/">GitHub On Demand training</a></p>
+
+        <p><a href="https://www.youtube.com/watch?v=LqOcx-CtN0w&feature=youtu.be">GitHub Pull Requests for Everyone </a> (talk by Catherine Meade as JSConf 2018)</p>
+
+        <p><a href="https://tech.gsa.gov/assets/downloads/techtalks/GitHub-TechTalk-Sara-Nov2017.pdf">A Tour of GitHub for Non-Developers</a>(talk by Sara Cope for GSA)</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.062.jpg" alt="Image of slide number 62" />
+      </div>
+      <div class="slide-notes">
+        <p>Terminology to know</p>
+
+        <p>Issue - start a convo</p>
+
+        <p>Fork - create your own copy of the repo</p>
+
+        <p>Clone - download a copy to your machine</p>
+
+        <p>Commit - save the current version of your work</p>
+
+        <p>Repo (repository) - where your project lives</p>
+
+        <p>Pull request - submit my changes to the project</p>
+
+        <p>Upstream - refers to the original repo you forked</p>
+
+        <p>Origin - default remote repo reference that points to your fork on GitHub</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.063.jpg" alt="Image of slide number 63" />
+      </div>
+      <div class="slide-notes">
+        <p>Open Source</p>
+
+        <p>Open Source Guides</p>
+
+        <p>Choosing an open source license</p>
+
+        <p>DOD open source FAQ</p>
+
+        <p>OSI license list</p>
+
+      </div>
+    </div>
+
+    <div class="slide slide--bordered">
+      <div class="slide-image">
+        <img src="img/images.064.jpg" alt="Image of slide number 64" />
+      </div>
+      <div class="slide-notes">
+        <p>Follow us @Codedotgov</p>
+
+        <p>Join us at GSA/code-gov</p>
+
+        <p>Email us code@gsa.gov</p>
+
+        <p>Docs @ https://developers.code.gov</p>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
